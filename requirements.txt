@@ -1,7 +1,6 @@
 fastapi
 uvicorn[standard]
 numpy==1.26.4
-opencv-python-headless==4.11.0.86
 pandas
 tensorflow-cpu==2.21.0
 mediapipe==0.10.35
