@@ -1,7 +1,13 @@
 {
   "$schema": "https://schema.railpack.com",
-  "buildAptPackages": ["libgl1", "libglib2.0-0", "libgomp1", "libegl1"],
+  "buildAptPackages": [
+    "libgl1", "libglib2.0-0", "libgomp1", "libgles2", "libegl1",
+    "libegl-mesa0", "libgbm1", "libdrm2"
+  ],
   "deploy": {
-    "aptPackages": ["libgl1", "libglib2.0-0", "libgomp1", "libgles2", "libegl1"]
+    "aptPackages": [
+      "libgl1", "libglib2.0-0", "libgomp1", "libgles2", "libegl1",
+      "libegl-mesa0", "libgbm1", "libdrm2"
+    ]
   }
 }
