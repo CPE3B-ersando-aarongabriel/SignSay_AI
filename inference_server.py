@@ -1,7 +1,7 @@
 # SignSay Inference Server
 # ========================
 # Local:   uvicorn inference_server:app --host 0.0.0.0 --port 8000 --reload
-# Railway: handled by Procfile — uses $PORT env var automatically
+# Railway: auto-detects requirements.txt, handled by Procfile — uses $PORT env var automatically
 #
 # First run downloads MediaPipe .task files (~16 MB total, ~60s).
 # Subsequent runs skip the download.
